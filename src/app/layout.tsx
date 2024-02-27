@@ -1,5 +1,4 @@
 import { Inter as FontSans } from "next/font/google"
-import localFont from "next/font/local"
 
 import "@/styles/globals.css"
 import { siteConfig } from "@/config/site"
@@ -33,14 +32,14 @@ export const metadata = {
   ],
   authors: [
     {
-      name: "shadcn",
-      url: "https://shadcn.com",
+      name: "Rods Landing Page",
+      url: "https://rods.com",
     },
   ],
-  creator: "shadcn",
+  creator: "Rods",
   openGraph: {
     type: "website",
-    locale: "en_US",
+    locale: "pt_BR",
     url: siteConfig.url,
     title: siteConfig.name,
     description: siteConfig.description,
@@ -51,7 +50,7 @@ export const metadata = {
     title: siteConfig.name,
     description: siteConfig.description,
     images: [`${siteConfig.url}/og.jpg`],
-    creator: "@shadcn",
+    creator: "@sourods",
   },
   icons: {
     icon: "/favicon.ico",
