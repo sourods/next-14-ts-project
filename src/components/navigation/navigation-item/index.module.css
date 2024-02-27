@@ -1,0 +1,13 @@
+:global(.dark) .navigationItem {
+    color: white;
+}
+
+.navigationItem {
+    color: rgb(75 85 99 / 1);
+    font-size: 1.25rem/* 20px */;
+    line-height: 1.75rem/* 28px */;
+}
+
+.navigationItem:hover {
+    color: rgb(79 70 229 / 1);
+}
